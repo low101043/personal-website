@@ -1,0 +1,83 @@
+{% extends 'blog/base.html' %} 
+{% load static %}
+
+
+{% block content %}
+    <h1>Projects and useful skills</h1>
+    <div class="cv">
+    <h2>University/School Work</h2>
+    <ul>
+        <a href='https://github.com/low101043/final-year-13-project'><li>Physics Based Shooting 2D Game</li></a>
+            <ul>
+                <li>
+                    This is a game created for my project in Year 13.  
+                </li>
+            </ul>
+        <li>Data Science Group Project investigating the relation between Happiness and Terrorist Attacks</li>
+            <ul>
+                <li>
+                    This was a Python Project for my Widening Horizons Module Data Science For Everyone.  Found that there was some link between the two but was very small.
+                </li>
+            </ul>
+        <li>Personal Website</li>
+            <ul>
+                <li>
+                    This is the website you are on!  Built using Django.
+                </li>
+            </ul>
+    </ul>
+    <h2> Projects</h2>
+    <ul>
+        <a href="https://github.com/low101043/aiProjectComputer"><li>AI algorithms project</li></a>
+            <ul>
+                <li>
+                    This is a Java Project which implements differnt AI algorithms I have learnt in my first year Artificial Intelligence module.  This also uses ideas learnt from for other first year modules like Programming in Java and Data Structures and Algorithms.  
+                </li>
+            </ul>
+        <a href="https://github.com/low101043/RSA-Cipher"><li>RSA Cipher</li></a>
+            <ul>
+                <li>
+                    This implements the RSA Cipher in Python. 
+                </li>
+            </ul>
+        <li>Other Ciphers</li>
+            <ul>
+                <li>
+                    As someone who has a lot of interest in Ciphers I have implemented differnt cipher and also differnt ways to break cipher. 
+                </li>
+            </ul>
+        
+    </ul>
+    <h2>Hackathons and CTFs</h2>
+    <ul>
+        <li>CSS Qiskit Hackathon November 2019</li>
+            <ul>
+                <li>
+                    Created a Python program which accurately measures the Pi.  This is done by working the proportion of random coordinates are in or out of the circle.  The random numbers were generated using a (simulated) quantum computer.
+                </li>
+            </ul>
+        <a href ="https://tryhackme.com/hackback2"><li>HackBack 2 October 2019</li></a>
+            <ul>
+                <li>
+                    A CTF which was run by TryHackMe.  First ever CTF which I had done.  
+                </li>
+            </ul>
+        <li>BAE Systems Capture The Flag January 2020</li>
+            <ul>
+                <li>A CTF run by BAE. Gave me more experience on how they working</li>
+            </ul>
+        <li>MLH Local Hack Day</li>
+            <ul>
+                <li>
+                    A day where I learnta bit about website design and how the cloud works.
+                </li>
+            </ul>
+    </ul>
+    </div>
+    <div class="linksForCV">
+    <a class = "btn btn-outline-primary" href='https://github.com/low101043'><p>My GitHub account</p></a>
+    
+    <a class = "btn btn-outline-primary" href = "/pdf/"><p>My CV</p></a>
+    </div>
+
+{% endblock %}

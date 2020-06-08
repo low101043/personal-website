@@ -1,0 +1,5 @@
+{% extends 'blog/post_list.html' %}
+{% load menu %}
+{% block reorder %}
+    <a href="{% url 'post_list_old'  %}">Reorder oldest to newest</a>
+{% endblock %}

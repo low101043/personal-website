@@ -1,0 +1,63 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content %}
+    
+    <h1>About me</h1>
+    <h2>Nathaniel Lowis</h2>
+    <h3>Who am I</h3>
+    <div class='list'>
+        <ul>
+            <li><p>Christian</p></li>
+                <ul>
+                    <li>
+                        <p>When I am at home in, Bury St Edmunds, I go to Westgate Chapel whilst when I am at university, in Birmingham, I go to City Church Birmingham.  As well, I am a member of the University of Birmingham's Christian Union</p>
+                        <p>If you want to know more click these links!</p>
+                        <ul>
+                            <li><a href="https://www.westgatechapel.org.uk/"><p>Westgate Chapel's Website</p></a></li>
+                            <li><a href="https://www.city-church.org.uk/"><p>City Church's Website</p></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCew9xyP0765lCeG8QKCHudQ/featured"><p>UBCU Youtube Channel</p></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            <li><p>First Year Computer Scientist at the University of Birmingham</p></li>
+        
+            <li><p>Too Welsh for my own good in Rugby!</p></li>
+            <li><p>Originally from Bury St. Edmunds in Suffolk</p></li>
+        
+        </ul>
+    
+    </div>
+
+    <div class='descibe'>
+    <p>Photos Left to Right: </p>
+    <ul>
+        <li>
+            Wembley Way 2015 Reading Vs Arsenal
+        </li>
+        <li>
+            CSS Ball 2020
+        </li>
+        <li>
+            Buckingham Palace May 2019 recieving my Gold DofE
+        </li>
+    </ul>
+    </div>
+    
+    
+      
+            
+{% endblock %}
+{% block image %}
+<div class="row">
+    <div class="column">
+        <img src = "{% static 'images/wembly.JPG' %}">
+    </div>
+    <div class="column">
+        <img src = "{% static 'images/cssBall.JPG' %}" alt="Hi">
+    </div>
+    <div class="column">
+        <img src = "{% static 'images/dofeGold.JPG' %}">
+    </div>
+</div>
+{% endblock %}

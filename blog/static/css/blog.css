@@ -1,0 +1,147 @@
+.page-header {
+    background-color:#5F9EA0;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    
+}
+
+/*INCREASE SIZE OF P   */
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.content {
+    /*position: absolute;
+    margin-left: 150px;*/
+    text-align: left;
+    /*padding: 20px 20px 20px 40px;*/
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Times New Roman', 'Arial';
+}
+
+.date {
+    color: #828282;
+    font-family: 'Lucida Console';
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+    
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a, .post h2 a:visited {
+    color: #000000;
+}
+
+.menu {
+    position: fixed;
+    left: auto;
+    
+    background-color: #5F9EA0;
+    padding: 20px 20px 20px 40px;
+}
+
+.details {
+    
+        height: 142px; /* .push must be the same height as .footer */
+    
+}
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
+.menu a:visited, .menu a, .page-header h1 a:active{
+    color:white;
+}
+
+.photo{
+    position: absolute;
+    right:auto;
+}
+
+.cv  a:visited {
+    color: #000000;
+}
+
+.list p, .list li {  /* Sort out the size of p */
+    color: #828282;
+    font-size: large;
+}
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    
+    padding: 5px;
+}
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+.imageOfMe {
+    position: absolute;
+    right: 150;
+}
+
+.homepage p {
+    color: #828282;
+    font-size: large;
+}
+
+.describe li, .describe p{
+    color: #000000;
+    font-size: small;
+}
+
+.cv li {
+    color: #828282;
+    font-size: large;
+}
+.linksForCV p{
+    
+    display: inline;
+    font-size: large;
+
+}
+
+.post p {
+    color: #828282;
+    font-size: large;
+}
