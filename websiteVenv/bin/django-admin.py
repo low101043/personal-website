@@ -1,5 +1,0 @@
-#!/home/low101043/Documents/personalWebsite/websiteVenv/bin/python
-from django.core import management
-
-if __name__ == "__main__":
-    management.execute_from_command_line()
