@@ -62,12 +62,6 @@ h1, h2, h3, h4 {
     padding: 20px 20px 20px 40px;
 }
 
-.details {
-    
-        height: 142px; /* .push must be the same height as .footer */
-    
-}
-
 * {
     margin: 0;
 }
@@ -115,9 +109,11 @@ html, body {
     clear: both;
     display: table;
 } 
+
 .imageOfMe {
-    position: absolute;
-    right: 150;
+    position: fixed;
+    /*left: 150;*/
+    top: 300;
 }
 
 .homepage p {
