@@ -145,3 +145,7 @@ html, body {
     color: #828282;
     font-size: large;
 }
+
+.centre {
+    float: inline-start;
+}
