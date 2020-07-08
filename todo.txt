@@ -1,0 +1,2 @@
+Try and use one template for blog list.
+HIDE THE SECRET_KEY
