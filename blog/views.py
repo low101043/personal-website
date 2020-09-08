@@ -9,14 +9,14 @@ from django.core.files.storage import FileSystemStorage
 
 def pdf_view(request):
     fs = FileSystemStorage()
-    filename = 'NathanielLowisCVMay2020.pdf'
+    filename = 'NathanielLowisCVSeptember2020.pdf'
     if fs.exists(filename):
         with fs.open(filename) as pdf:
             response = HttpResponse(pdf, content_type='application/pdf')
             response['Content-Disposition'] = 'attachment; filename="NathanielLowisCV.pdf"'
             return response
     else:
-        return HttpResponseNotFound('The requested pdf was not found in our server.')
+        return HttpResponseNotFound('My CV has been misplaced!  I am working hard (hopefully!) sorting out the problem')
 
 def post_list_old_to_new(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
