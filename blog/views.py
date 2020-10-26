@@ -9,7 +9,7 @@ from django.core.files.storage import FileSystemStorage
 
 def pdf_view(request):
     fs = FileSystemStorage()
-    filename = 'NathanielLowisCVSeptember2020.pdf'
+    filename = 'NathanielLowisCV.pdf'
     if fs.exists(filename):
         with fs.open(filename) as pdf:
             response = HttpResponse(pdf, content_type='application/pdf')
